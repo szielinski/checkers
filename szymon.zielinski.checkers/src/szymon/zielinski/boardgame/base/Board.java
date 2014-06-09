@@ -3,7 +3,8 @@
  * objects of type Piece. The game board is amde up of a linear array of Squares.
  */
 
-package checkers;
+package szymon.zielinski.boardgame.base;
+
 
 public class Board {
     
@@ -16,7 +17,7 @@ public class Board {
     private Square[] squareArray;
     
     // create board of given size
-    Board(int size) {   
+    public Board(int size) {   
         if (size <= 0){
             throw new IllegalArgumentException(ERROR_MESSAGE + size);
         }

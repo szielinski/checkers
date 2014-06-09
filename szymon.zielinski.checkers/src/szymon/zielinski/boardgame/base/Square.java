@@ -3,7 +3,8 @@
  * The square can contain an object of type Piece.
  */
 
-package checkers;
+package szymon.zielinski.boardgame.base;
+
 
 public class Square {
     

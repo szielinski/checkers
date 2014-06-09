@@ -1,7 +1,9 @@
 /*
  * A checkers piece class, an implementation of class Piece.
 */
-package checkers;
+package szymon.zielinski.boardgame.checkers;
+
+import szymon.zielinski.boardgame.base.Piece;
 
 public class CheckersPiece implements Piece {
 

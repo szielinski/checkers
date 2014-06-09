@@ -24,9 +24,12 @@
  * 50 - 9 = 41, 41 != 44
  * Therefore the move is invalid.
  */
-package checkers;
+package szymon.zielinski.boardgame.checkers;
 
 import java.util.Random;
+
+import szymon.zielinski.boardgame.base.Board;
+import szymon.zielinski.boardgame.base.Piece;
 
 public class CheckersGame {
 

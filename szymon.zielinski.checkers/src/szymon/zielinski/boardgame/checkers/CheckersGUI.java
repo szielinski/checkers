@@ -1,4 +1,4 @@
-package checkers;
+package szymon.zielinski.boardgame.checkers;
 
 import java.awt.*;
 import java.awt.event.*;
@@ -20,10 +20,10 @@ public class CheckersGUI extends javax.swing.JApplet {
     private JMenuItem undoMenuItem, swapMenuItem;
     private JRadioButtonMenuItem onePlayerMenuItem, twoPlayerMenuItem, easyMenuItem, beginnerMenuItem, medMenuItem, hardMenuItem;
 
-    private ImageIcon redChecker = new javax.swing.ImageIcon(getClass().getResource(("/images/RedChecker.gif")));
-    private ImageIcon blueChecker = new javax.swing.ImageIcon(getClass().getResource(("/images/BlueChecker.gif")));
-    private ImageIcon redKing = new javax.swing.ImageIcon(getClass().getResource(("/images/RedKingChecker.gif")));
-    private ImageIcon blueKing = new javax.swing.ImageIcon(getClass().getResource(("/images/BlueKingChecker.gif")));
+    private ImageIcon redChecker = new javax.swing.ImageIcon(getClass().getResource((StaticVars.PATH_TO_IMAGES + "RedChecker.gif")));
+    private ImageIcon blueChecker = new javax.swing.ImageIcon(getClass().getResource((StaticVars.PATH_TO_IMAGES +"BlueChecker.gif")));
+    private ImageIcon redKing = new javax.swing.ImageIcon(getClass().getResource((StaticVars.PATH_TO_IMAGES +"RedKingChecker.gif")));
+    private ImageIcon blueKing = new javax.swing.ImageIcon(getClass().getResource((StaticVars.PATH_TO_IMAGES +"BlueKingChecker.gif")));
 
     private int currentPlayer = 0;
     private boolean displayedWinner = false;

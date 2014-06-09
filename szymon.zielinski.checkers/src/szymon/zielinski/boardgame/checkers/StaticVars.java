@@ -1,4 +1,4 @@
-package checkers;
+package szymon.zielinski.boardgame.checkers;
 
 public interface StaticVars {
     public static final String MUSIC_URL = "http://www.redbrick.dcu.ie/~zels/Checkers/hidden214901580238601135123/music.wav";
@@ -9,4 +9,5 @@ public interface StaticVars {
             + "\"melancholic interpretation in G#\" by Connum ( http://www.freesound.org/people/Connum/sounds/12691/ )\n"
             + "Music is licensed under the Attribution Noncommercial License.\n\n"
             + "The rules of this game can be found at http://www.mastersgames.com/rules/draughts-rules.htm";
+    public static final String PATH_TO_IMAGES = "/szymon/zielinski/boardgame/checkers/images/";
 }
