@@ -3,8 +3,6 @@
  * objects of type Piece. The game board is amde up of a linear array of Squares.
  */
 
-//test
-
 package szymon.zielinski.boardgame.base;
 
 public class Board {
